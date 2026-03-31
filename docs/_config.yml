@@ -1,4 +1,5 @@
 # Tell Jekyll where to find the source files
+title: "DevEx-Starter-Template"
 source: .
 destination: _site
 
