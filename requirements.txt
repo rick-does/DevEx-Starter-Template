@@ -16,3 +16,4 @@ pydantic>=2.0
 # Essential for CI/CD pipeline (Step 2: Python Setup & Run Code Tests)
 pytest
 httpx
+ruff

@@ -144,7 +144,6 @@ def check_orphans():
     Returns a list of HTML files with no incoming links.
     """
     site_dir = os.path.join(os.path.dirname(__file__), "..", "docs", "_site")
-    print(site_dir)
     orphaned = find_orphaned_files(site_dir)
     
     return {
