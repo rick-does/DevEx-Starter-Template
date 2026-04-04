@@ -1,6 +1,6 @@
 services:
-  devex-docs-validator:
+  devex-starter-template:
     build: .
-    image: richardmallery/devex-docs-validator:latest
+    image: richardmallery/devex-starter-template:latest
     ports:
       - "8000:8000"

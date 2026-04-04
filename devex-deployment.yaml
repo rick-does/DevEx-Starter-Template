@@ -17,7 +17,7 @@ spec:
       containers:
       - name: validator-api
         # IMPORTANT: This must be the public image you pushed to Docker Hub
-        image: richardmallery/devex-docs-validator:latest 
+        image: richardmallery/devex-starter-template:latest 
         imagePullPolicy: Always
         ports:
         - containerPort: 8000

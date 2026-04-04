@@ -34,8 +34,8 @@ python -m uvicorn src.api:app --reload --host 0.0.0.0 --port 8000
 
 **Build and run with Docker:**
 ```bash
-docker build -t devex-docs-validator .
-docker run -p 8000:8000 devex-docs-validator
+docker build -t devex-starter-template .
+docker run -p 8000:8000 devex-starter-template
 ```
 
 **Run the CLI:**
@@ -56,7 +56,7 @@ python src/cli.py check-url https://example.com
 - **FastAPI + Pydantic v2:** All request/response shapes are Pydantic models. Keep endpoints tagged and documented for Swagger.
 - **Validation logic lives in `src/`** — keep API and CLI thin; put logic in shared helpers.
 - **Kubernetes probes** use `/status` — don't change its response shape or path.
-- **Docker image name:** `richardmallery/devex-docs-validator:latest` — update when forking.
+- **Docker image name:** `richardmallery/devex-starter-template:latest` — update when forking.
 
 ---
 
