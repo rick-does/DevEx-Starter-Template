@@ -1,7 +1,7 @@
 # 🛠️ DevEx Starter Template
 
-[![Run Tests](https://github.com/rick-suspends/DevEx-Starter-Template/actions/workflows/run-tests.yml/badge.svg)](https://github.com/rick-suspends/DevEx-Starter-Template/actions/workflows/run-tests.yml)
-[![Build and Deploy Docs](https://github.com/rick-suspends/DevEx-Starter-Template/actions/workflows/build-docs.yml/badge.svg)](https://github.com/rick-suspends/DevEx-Starter-Template/actions/workflows/build-docs.yml)
+[![Run Tests](https://github.com/rick-does/DevEx-Starter-Template/actions/workflows/run-tests.yml/badge.svg)](https://github.com/rick-does/DevEx-Starter-Template/actions/workflows/run-tests.yml)
+[![Build and Deploy Docs](https://github.com/rick-does/DevEx-Starter-Template/actions/workflows/build-docs.yml/badge.svg)](https://github.com/rick-does/DevEx-Starter-Template/actions/workflows/build-docs.yml)
 
 This repository serves as a **production-ready, basic starting point (template)** for building any Developer Experience (DevEx) focused project, API, or service.
 
@@ -37,7 +37,7 @@ The **Jekyll Docs API & CLI** are designed to:
 
 In the `/docs` directory is a functional Jekyll system with all the elements you need to build out your own Jekyll project.
 
-See the Jekyll output at [DevEx Starter Template docs](https://rick-suspends.github.io/DevEx-Starter-Template/)
+See the Jekyll output at [DevEx Starter Template docs](https://rick-does.github.io/DevEx-Starter-Template/)
 
 -----
 
@@ -51,7 +51,7 @@ To start a new DevEx project using this foundation:
 
    1. Fork the repository on GitHub 
 
-      1.  Navigate to the [DevEx Starter Template GitHub page](https://github.com/rick-suspends/DevEx-Starter-Template) 
+      1.  Navigate to the [DevEx Starter Template GitHub page](https://github.com/rick-does/DevEx-Starter-Template) 
 
       2.  Click the **Fork** button to create a copy of the repository under your personal account.
 
@@ -79,7 +79,7 @@ To start a new DevEx project using this foundation:
     ```
     Your new service is available at `http://localhost:8000`.
 5. **Update documentation**
-    Follow the full documentation flow in the Jekyll example to create, generate, and publish project documentation. See [DevEx Starter Template Docs](https://rick-suspends.github.io/DevEx-Starter-Template/). 
+    Follow the full documentation flow in the Jekyll example to create, generate, and publish project documentation. See [DevEx Starter Template Docs](https://rick-does.github.io/DevEx-Starter-Template/). 
 
     This documentation is automatically built from Markdown and deployed via GitHub Actions, demonstrating a standard Docs-as-Code workflow.
 
